@@ -4,8 +4,9 @@ title: "First Post"
 modified:
 categories: 
 excerpt:
-tags: [test]
-comments: true 
+tags: []
+comments: true
+author: xiexiaobo
 image:
   feature: sample-image-4.jpg
 date: 2015-01-11T15:37:07+08:00
