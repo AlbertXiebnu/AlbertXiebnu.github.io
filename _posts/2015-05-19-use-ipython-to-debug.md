@@ -13,6 +13,7 @@ date: 2015-05-19T16:53:17+08:00
 最近学习了下python，用python写了一个线性回归的程序，因为对numpy的api不是很熟练，所以写出来的程序发现有bug。之前没有python程序的调试经验，虽然可以打印变量，但是个人觉得还是没有单步调试来的方便。于是就自己折腾了下IPython的调试功能。特此记录一下。
 
 首先打开terminal，进入ipython，这里有两个文件，其中linearRegression.py就是我们需要调试的程序。
+
 <figure>
 	<a href="http://cdn1.snapgram.co/imgs/2015/05/19/screenshot.png">
 		<img src="http://cdn1.snapgram.co/imgs/2015/05/19/screenshot.png">
@@ -20,7 +21,7 @@ date: 2015-05-19T16:53:17+08:00
 </figure>
 
 首先把我们需要调试的代码展示出来：
-{% highlight python %}
+{% highlight python linenos%}
 import numpy as np
 import pylab as plt
 def hypothesis(theta,X):
