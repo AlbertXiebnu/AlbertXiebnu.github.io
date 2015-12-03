@@ -4,7 +4,7 @@ title: "linux命令 Find篇"
 modified:
 categories: 
 excerpt:
-tags: []
+tags: [linux]
 comments: true
 author: xiexiaobo
 image:
