@@ -8,7 +8,7 @@ tags: [open course,learn how to learn]
 comments: true
 author: xiexiaobo
 image:
-  feature: sample-image-2.jpg
+feature: sample-image-2.jpg
 date: 2015-05-17T23:36:36+08:00
 ---
 
