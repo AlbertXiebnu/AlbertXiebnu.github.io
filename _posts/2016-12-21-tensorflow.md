@@ -4,14 +4,16 @@ title: "Tensorflow C++ 使用指南"
 modified:
 categories:
 excerpt:
-tags: [tensorflow,deep learning]
+tags: []
 comments: true
 author: xiexiaobo
 image:
-feature: sample-image-3.jpg
-date: 2016-12-21T23:36:36+08:00
+feature: sample-image-2.jpg
+date: 2016-12-21T13:36:36+08:00
 ---
+
 ### 背景介绍
+
 [Tensorflow](https://www.tensorflow.org)是谷歌开源的一款深度学习框架，支持分布式训练和多GPU训练。虽然其开源时间比Theano和Torch等深度学习框架更晚，但是因为有Google的强大支持和其在开源社区强大的影响力，Tensorflow迅速流行，目前已有大量使用Tensorflow实现的论文代码和经典模型。从个人的使用经验来说，使用Torch进行快速原型实验以及调试相对来说方法一些，因此相对来说更适合做纯研究的人使用。而Tensorflow在研究和应用两个方面相对来说平衡一些，不仅因为Tensorflow支持分布式的训练和多GPU，而且还提供了生产级别的高性能服务框架[Tensorflow Serving](https://tensorflow.github.io/serving/)，方便模型快速部署到生产环境。
 
 如果你还不熟悉Tensorflow的基本使用，可以先学习下Tensorflow官网的[教程](https://www.tensorflow.org/versions/r0.11/tutorials/index.html)或者参考Github上的一些[教程](https://github.com/AlbertXiebnu/TF-Tutorials)。这篇文章主要是想介绍如何
